@@ -1,22 +1,35 @@
-# 💡 Skill Suggestion App using Streamlit
+✨ AI Career Path Suggester
+This app helps you discover what skills you need to learn based on your dream job role and your existing skills.
 
-This is a simple web app built using **Streamlit** to help users identify the **skills they still need to learn** for their **dream tech job**.
+🧠 Example:
+If you enter:
 
-## 🚀 Features
+Role: AI Engineer
 
-- 👤 Input your name, dream job role, and current skills
-- 📋 Get a personalized checklist of missing skills
-- ✅ Clean and modern UI with emoji-based visuals
+Known Skills: Python, Pandas
 
-## 🛠 Tech Stack
+The app will suggest skills like:
+✅ NLP
+✅ TensorFlow
+✅ Prompt Engineering
 
-- Python 🐍
-- Streamlit 🌐
-- Git & GitHub 🔧
+🛠 Tech Stack
+HTML, CSS
 
+JavaScript
 
+Replit/Frontend-only app (no backend)
 
-## 📁 How to Run
+👨‍💻 How to Use
+Enter your name
 
-```bash
-git clone https://github.com/abhi22
+Enter your dream job role
+
+Enter your current known skills (comma separated)
+
+Get suggestion of remaining skills to learn
+
+🤝 Contributions
+Made by Abhi with the guidance of ChatGPT.
+Feel free to fork and enhance further!
+
