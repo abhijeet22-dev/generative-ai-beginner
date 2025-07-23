@@ -14,11 +14,9 @@ This is a simple web app built using **Streamlit** to help users identify the **
 - Streamlit 🌐
 - Git & GitHub 🔧
 
-## 📸 Screenshot
 
-![App Screenshot](link-to-screenshot-if-any)
 
 ## 📁 How to Run
 
 ```bash
-git clone https://github.com/your-username/your-
+git clone https://github.com/abhi22
