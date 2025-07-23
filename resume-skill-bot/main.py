@@ -36,3 +36,24 @@ skills = suggest_skills(job_role)
 print(f"Hi {name}! For becoming a {job_role.title()}, you should focus on:")
 for skill in skills:
     print("✅", skill)
+
+# Step 1: User input via keyboard
+name = input("Enter your name: ")
+job_role = input("Enter your dream job role: ")
+
+# Step 2: Suggest skills based on job role
+def suggest_skills(job_role):
+    suggestions = {
+        "ai engineer": ["Python", "TensorFlow", "NLP", "Prompt Engineering"],
+        "data scientist": ["Python", "Pandas", "Scikit-learn", "Statistics"],
+        "web developer": ["HTML", "CSS", "JavaScript", "React"]
+    }
+    return suggestions.get(job_role.lower(), ["Explore more to get suggestions!"])
+
+# Step 3: Show personalized output
+skills = suggest_skills(job_role)
+
+print(f"\nHi {name}! For becoming a {job_role.title()}, you should focus on:")
+for skill in skills:
+    print("✅", skill)
+
