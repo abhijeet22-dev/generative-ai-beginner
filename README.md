@@ -1,17 +1,24 @@
-# 🧠 Skill Advisor - Job Role Recommendation System
+# 💡 Skill Suggestion App using Streamlit
 
-This is a beginner-friendly **Generative AI-based Python mini project** that helps users get **job role suggestions** based on their entered skills.
+This is a simple web app built using **Streamlit** to help users identify the **skills they still need to learn** for their **dream tech job**.
 
----
+## 🚀 Features
 
-## 🔍 How It Works?
+- 👤 Input your name, dream job role, and current skills
+- 📋 Get a personalized checklist of missing skills
+- ✅ Clean and modern UI with emoji-based visuals
 
-- User enters a job role (e.g., "AI Engineer").
-- User provides skills (comma-separated like: `python, tensorflow, pandas`).
-- The system checks:
-  - If skills match that job role → ✅ Recommends the role.
-  - If not → ❌ Suggests better matched roles using given skills.
+## 🛠 Tech Stack
 
----
+- Python 🐍
+- Streamlit 🌐
+- Git & GitHub 🔧
 
-## 💻 Technologie
+## 📸 Screenshot
+
+![App Screenshot](link-to-screenshot-if-any)
+
+## 📁 How to Run
+
+```bash
+git clone https://github.com/your-username/your-
