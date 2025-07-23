@@ -1,11 +1,17 @@
-# Generative-ai-beginner
-Mini projects and learnings from Microsoft Generative AI for Beginners course
-# Generative AI for Beginners 🌟
+# 🧠 Skill Advisor - Job Role Recommendation System
 
-This repository contains my journey, learnings, and mini-projects from the **Microsoft Generative AI for Beginners** course.
+This is a beginner-friendly **Generative AI-based Python mini project** that helps users get **job role suggestions** based on their entered skills.
 
-## 📌 Projects:
-- ✅ Resume Skill Enhancer Bot (Python)
-- 📍 Upcoming: Image Generation, Prompt Engineering Demos
+---
 
-## 📅 Started: July 2025
+## 🔍 How It Works?
+
+- User enters a job role (e.g., "AI Engineer").
+- User provides skills (comma-separated like: `python, tensorflow, pandas`).
+- The system checks:
+  - If skills match that job role → ✅ Recommends the role.
+  - If not → ❌ Suggests better matched roles using given skills.
+
+---
+
+## 💻 Technologie
